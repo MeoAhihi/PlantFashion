@@ -1,0 +1,3 @@
+function ahihi() {
+    alert('ahihi :>')
+}
