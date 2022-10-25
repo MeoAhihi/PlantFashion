@@ -6,6 +6,14 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
 .background {
   /* background */
 
@@ -17,28 +25,6 @@
 
   background: url(image/background.png);
   background-repeat: no-repeat;
-}
-
-h1 {
-  font-family: "Times New Roman", Times, serif;
-  margin: 0;
-  padding: 0;
-}
-
-.regtangle {
-  /* Rectangle 2 */
-
-  position: absolute;
-  width: 1032.26px;
-  height: 500px;
-  left: 252px;
-  top: 122px;
-
-  background: rgba(153, 153, 153, 0.5);
-  backdrop-filter: blur(15px);
-  /* Note: backdrop-filter has minimal browser support */
-
-  border-radius: 40px;
 }
 
 .branch {
@@ -53,6 +39,26 @@ h1 {
   background: url(image/PNG-0000001599.png);
   /* transform: matrix(0.61, -0.79, -0.79, -0.61, 0, 0); */
 }
+
+
+
+.regtangle {
+  /* Rectangle 2 */
+  
+  position: absolute;
+  width: 1032.26px;
+  height: 500px;
+  left: 252px;
+  top: 122px;
+  
+  background: rgba(153, 153, 153, 0.5);
+  backdrop-filter: blur(15px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 40px;
+
+}
+
 
 header {
   /* header */
@@ -78,15 +84,6 @@ nav > ul > li {
   padding: 10px;
 }
 
-button {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  width: 128px;
-  height: 32px;
-  border-radius: 20px;
-  border: 0px;
-  color: black;
-  background-color: white;
-}
 
 main {
   display: flex;
@@ -97,6 +94,16 @@ main {
   gap: 30px;
   align-self: stretch;
   height: 27em;
+}
+
+button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 128px;
+  height: 32px;
+  border-radius: 20px;
+  border: 0px;
+  color: black;
+  background-color: white;
 }
 
 main > h1 {
